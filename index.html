@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamyar Amini - Graduate Student</title>
+    <style>
+        /* ===== Reset and base ===== */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.6; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+
+        /* ===== Layout ===== */
+        body { display: flex; min-height: 100vh; }
+        nav { width: 250px; background-color: #004080; color: white; flex-shrink: 0; position: fixed; height: 100%; padding-top: 30px; }
+        nav h2 { text-align: center; margin-bottom: 20px; }
+        nav a { display: block; padding: 15px 20px; color: white; transition: 0.3s; }
+        nav a:hover { background-color: #003366; }
+
+        main { margin-left: 250px; padding: 30px; flex-grow: 1; }
+
+        section { margin-bottom: 60px; }
+        section h1, section h2 { color: #004080; margin-bottom: 15px; }
+        section p { margin-bottom: 15px; }
+
+        /* ===== Buttons ===== */
+        .button {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #004080;
+            color: white;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .button:hover { background-color: #003366; }
+
+        /* ===== Publications ===== */
+        .pub-list li { margin-bottom: 10px; }
+
+        /* ===== Smooth Scroll ===== */
+        html { scroll-behavior: smooth; }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 768px) {
+            nav { width: 100%; height: auto; position: relative; }
+            main { margin-left: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <nav>
+        <h2>Kamyar Amini</h2>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+        <a href="#cv">CV</a>
+    </nav>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Hello! I'm Kamyar Amini, a graduate student in mathematics at Virginia Tech. My research focuses on algebraic geometry, and its related area. especially I am interested in Gromov-Witten theory, quantum K-theory Theory, log geometry,  and  representation theory.</p>
+        </section>
+
+        
+
+      <!-- Research Section -->
+<section id="research">
+    <h2>Research</h2>
+    <ul class="pub-list">
+        <!-- First Paper -->
+        <li style="margin-bottom: 20px;">
+            <a href="https://arxiv.org/abs/2504.07412" target="_blank" style="color: #004080; text-decoration: none; font-weight: bold;">
+                Toda-type presentations for the quantum K-theory of partial flag varieties
+            </a><br>
+            Kamyar Amini, I. Huq-Kuruvilla, L.C. Mihalcea, D. Orr, W. Xu<br>
+            <em>Symmetry, Integrability and Geometry: Methods and Applications, In Press</em>
+        </li>
+
+        <!-- Second Paper -->
+        <li style="margin-bottom: 20px;">
+            <a href="#" target="_blank" style="color: #004080; text-decoration: none; font-weight: bold;">
+                Lifting I-functions from  the Grassmannians to their cotangent bundles
+            </a><br>
+            Kamyar Amini<br>
+            <em>In Progress</em>
+        </li>
+
+        <!-- Third Paper -->
+        <li style="margin-bottom: 20px;">
+            <a href="#" target="_blank" style="color: #004080; text-decoration: none; font-weight: bold;">
+                $K$-Theoretic Double Ramification Cycles
+            </a><br>
+            Y.C. Chou, L. Herr, D. Holmes, I. Huq-Kuruvilla, Y.P. Lee<br>
+            <em>In Progress</em>
+        </li>
+    </ul>
+</section>
+
+
+
+
+       <section id="cv">
+    <h2>Curriculum Vitae</h2>
+    <p>You can download my CV here:</p>
+    <a class="button" href="CV_KamyarAmini.pdf" download>Download CV</a>
+</section>
+
+
+
+
+        <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:kamini@vt.edu">kamini@vt.edu</a></p>
+</section>
+
+    </main>
+
+</body>
+</html>
